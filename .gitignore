@@ -1,0 +1,27 @@
+# Archivos de entorno y credenciales
+.env
+.env.local
+!.env.example
+credenciales*
+*.key
+*.pem
+
+# Evidencias y archivos multimedia
+evidencias_fase4/
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Volcados de base de datos
+*.sql
+*.sql.gz
+*.dump
+
+# Archivos de sistema y temporales
+.DS_Store
+*.log
+scratch/
+venv/
